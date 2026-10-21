@@ -14,7 +14,7 @@ async function valid(token?: string) {
 }
 
 /** First line of defense for /admin and /api/admin. Pages and actions re-check the user against the DB. */
-export async function proxy(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const isLogin = pathname === "/admin/login";
   const isSetup = pathname === "/admin/setup";
@@ -34,4 +34,4 @@ export async function proxy(req: NextRequest) {
   return res;
 }
 
-export const config = { matcher: ["/admin/:path*", "/api/admin/:path*"] };
+export const config = { matcher: ["/admin/:path*", "/api/admin/:path*"], runtime: "nodejs" };

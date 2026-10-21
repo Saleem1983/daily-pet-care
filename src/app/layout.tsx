@@ -22,8 +22,8 @@ export const viewport: Viewport = { themeColor: "#fbf6ee", width: "device-width"
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en-US" data-scroll-behavior="smooth">
-      <body>{children}</body>
+    <html lang="en-US" suppressHydrationWarning>
+      <body suppressHydrationWarning>{children}</body>
     </html>
   );
 }
