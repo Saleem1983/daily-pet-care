@@ -1,0 +1,4 @@
+DATABASE_URL="mysql://u629172807_daily_pet_care:DailyPetDb2026@127.0.0.1:3306/u629172807_daily_pet_care"
+AUTH_SECRET="cd94aa962162c88c497baf4582f030002154c8504fab3e1d58f1b4227eba7bd9c32110b219c00ed7b20eafab27e4c571"
+NEXT_PUBLIC_SITE_URL="https://dailypetcare.org"
+UPLOAD_DIR="/home/u629172807/petblog-uploads"
