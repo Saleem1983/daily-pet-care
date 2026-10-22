@@ -9,7 +9,7 @@ export const DEFAULT_SETTINGS = {
   hero_title: "Happier pets start with better care.",
   hero_subtitle:
     "Practical, research-backed advice on health, grooming, training and choosing pet services you can trust — written for pet parents across the U.S.",
-  contact_email: "hello@yourdomain.com",
+  contact_email: "hr.dailycarepet@gmail.com",
   footer_about:
     "Daily Pet Care helps pet parents make confident decisions about health, nutrition, grooming, boarding, and everyday care.",
   social_facebook: "",
